@@ -11,44 +11,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
-    <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
-
-    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
-    <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
-    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-analytics.js"></script>
-    <!-- Add Firebase products that you want to use -->
-    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-auth.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-firestore.js"></script>
-
-
-    <!-- copied from Auth UI livrtaary and CSS-->
-    <script src="https://www.gstatic.com/firebasejs/ui/4.6.1/firebase-ui-auth.js"></script>
-    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.6.1/firebase-ui-auth.css" />
-
-    <!-- copied from my firebase project-->
-    <script>
-        // Your web app's Firebase configuration
-        var firebaseConfig = {
-            apiKey: "AIzaSyBnR_8VzfNGPy-Xj8FkBRrLCCLbwOecc8M",
-            authDomain: "mango-4075e.firebaseapp.com",
-            databaseURL: "https://mango-4075e.firebaseio.com",
-            projectId: "mango-4075e",
-            storageBucket: "mango-4075e.appspot.com",
-            messagingSenderId: "633113262590",
-            appId: "1:633113262590:web:abefc345769d251e82a8af"
-        };
-        // Initialize Firebase
-        firebase.initializeApp(firebaseConfig);
-    </script>
-
-    <!-- Optional styles and scripts of your own-->
-
-
+    <!-- Optional styles and scripts of your own -->
+    <link rel="stylesheet" href="styles/blah.css">
 
 </head>
 
 <body>
+    <h1>Hello World, this is our Main Page <br/>
+        Welcome to myTable, you are now logged in!</h1>
     <!-------------------------------------->
     <!-- The following is HTML for layout -->
     <!-------------------------------------->
@@ -72,18 +42,7 @@
             </ul>
         </div>
     </nav>
-    <!-- add jumbotron for the landing page with login button-->
-    <div class="jumbotron">
-        <h1 class="display-4">Hello World, this is our Landing Page<br />
-            Welcome to myTable</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
-            featured content or information.</p>
-        <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <p class="lead">
-            <a class="btn btn-primary btn-lg" href="login.html" role="button">Login</a>
-        </p>
-    </div>
+
     <!----------------------------------------------->
     <!-- JS: Boostrap, Firebase, API related    -->
     <!----------------------------------------------->
@@ -102,5 +61,4 @@
     <!--------------------------------------------------------------------->
 
 </body>
-
 </html>
